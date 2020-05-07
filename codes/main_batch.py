@@ -1,8 +1,8 @@
 import torch
-from model import EncoderModel_batch, DecoderModel_batch
-from train import generate_input_long_history3, generate_queue, RnnParameterData
-from train import generate_batch_long_history, random_batch, masked_cross_entropy
-from train import batch_generator
+from codes.model import EncoderModel_batch, DecoderModel_batch
+from codes.train import generate_input_long_history3, generate_queue, RnnParameterData
+from codes.train import generate_batch_long_history, random_batch, masked_cross_entropy
+from codes.train import batch_generator
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F

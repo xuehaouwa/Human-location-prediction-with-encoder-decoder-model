@@ -24,8 +24,8 @@ class RnnParameterData(object):
                  clip=3.0,
                  optim='Adam',
                  rnn_type='LSTM',
-                 data_path='./data/',
-                 save_path='./results/',
+                 data_path='/home/xuehao/Desktop/RMIT_projects/Human-location-prediction-with-encoder-decoder-model/data/',
+                 save_path='/home/xuehao/Desktop/RMIT_projects/Human-location-prediction-with-encoder-decoder-model/results',
                  data_name='foursquare_2012'):
         self.data_path = data_path
         self.save_path = save_path
